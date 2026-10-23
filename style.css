@@ -1,0 +1,33 @@
+* { margin:0; padding:0; box-sizing:border-box; font-family: Arial; }
+header { background:#8B0000; color:white; padding:15px; text-align:center; }
+header input { width:90%; max-width:400px; padding:10px; margin-top:10px; border-radius:8px; border:none; }
+#map { height: 50vh; width:100%; }
+#pandal-list { display:grid; grid-template-columns: repeat(auto-fill, minmax(280px,1fr)); gap:15px; padding:15px; }
+.card { border:1px solid #ddd; border-radius:12px; padding:12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.card h3 { color:#8B0000; }
+.badge { background:gold; padding:2px 8px; border-radius:10px; font-size:12px; }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* { margin:0; padding:0; box-sizing:border-box; font-family: 'Poppins', sans-serif; }
+body { background:#120505; color:#ffe9b3; }
+header { 
+  background: linear-gradient(90deg, #4a0a0a, #8B0000); 
+  color:#ffd27f; padding:18px; text-align:center; 
+  border-bottom: 2px solid #ffcc66;
+  box-shadow: 0 0 20px rgba(255,204,102,0.3);
+}
+header h1 { letter-spacing:1px; }
+header input { 
+  width:90%; max-width:450px; padding:12px; margin-top:12px; 
+  border-radius:25px; border:1px solid #ffcc66; 
+  background:#1e0f0f; color:white; outline:none;
+}
+#map { height: 55vh; width:100%; border-top:2px solid #ffcc66; border-bottom:2px solid #ffcc66; }
+#pandal-list { display:grid; grid-template-columns: repeat(auto-fill, minmax(280px,1fr)); gap:15px; padding:15px; }
+.card { 
+  background:#1f0f0f; border:1px solid #ffcc66; border-radius:16px; 
+  padding:14px; box-shadow: 0 0 12px rgba(255,200,100,0.15);
+  transition:0.3s;
+}
+.card:hover { transform: translateY(-3px); box-shadow: 0 0 20px rgba(255,200,100,0.4); }
+.card h3 { color:#ffcc66; }
+.badge { background:#ffcc66; color:#4a0a0a; padding:3px 10px; border-radius:20px; font-size:12px; font-weight:600; }
